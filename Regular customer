@@ -1,0 +1,14 @@
+public class RegularCustomer{
+	private String name;
+	private double bill;
+	
+	public double calculateBill(){
+		return bill;
+	}
+	public String getName(){
+		return name;
+	}
+	public void calculateBill(double bill){
+		bill=bill;
+	}
+}
