@@ -1,0 +1,20 @@
+public class Customer{
+	private String name;
+	private double amount;
+	
+	public Customer(){
+		name= "unassigned";
+	}
+	public double calculateBill(){
+		return amount;
+	}
+	public String getName(){
+		return name;
+	}
+	public void setName(String customerName){
+		name= customerName;
+	}
+	public void setAmount(double bill){
+		amount= bill;
+	}
+}
