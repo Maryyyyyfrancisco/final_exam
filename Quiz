@@ -1,0 +1,29 @@
+public class Quiz{
+	private double id;
+	private String student;
+	private double score;
+	
+	public Quiz(){
+		id= new id();
+		student= new student();
+		score= new score();	
+	}
+	public String getStudeng(){
+		return student;
+	}
+	public double calculateScore(){
+		return score;
+	}
+	public double getId(){
+		return id;
+	}
+	public void setStudent(String name){
+		student= name;
+	}
+	public void calculateScore(double score){
+		score= score;
+	}
+	public void setId(double studId){
+		id= studId;
+	}
+}
